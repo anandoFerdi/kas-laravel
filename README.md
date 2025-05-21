@@ -39,6 +39,7 @@ Edit file **.env** sesuai pengaturan database lokal kamu, lalu jalankan:
 php artisan migrate
 npm run dev
 php artisan serve
+```
 
 ## 📸 Screenshot
 
@@ -56,4 +57,3 @@ php artisan serve
 ## 📄 License
 
 Project ini menggunakan lisensi MIT.
-```
