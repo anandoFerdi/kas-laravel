@@ -52,8 +52,14 @@ php artisan serve
 
 ## 👨‍💻 Pengembang
 
--   anandoFerdi
+-   **anandoFerdi**
 
 ## 📄 License
 
-Project ini menggunakan lisensi MIT.
+Proyek ini dilisensikan dengan [MIT License](https://opensource.org/licenses/MIT).
+
+## 📌 Catatan
+
+🚧 Proyek ini **belum selesai sepenuhnya** dan saat ini masih dalam tahap pengembangan.  
+📈 Progress saat ini: **± 50%**  
+🛠️ Fitur-fitur masih akan terus ditambahkan dan disempurnakan pada update selanjutnya.
