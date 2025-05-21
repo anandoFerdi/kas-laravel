@@ -9,6 +9,7 @@ Aplikasi kas sederhana berbasis Laravel. Proyek ini dirancang untuk membantu pen
 -   Grafik laporan menggunakan Chart.js
 -   Autentikasi user (login dan register)
 -   Validasi input dan notifikasi error
+-   Export laporan ke PDF
 -   Responsive design
 
 ## 🚀 Teknologi yang Digunakan
@@ -33,6 +34,8 @@ php artisan key:generate
 ## 📦 Setup database
 
 Edit file **.env** sesuai pengaturan database lokal kamu, lalu jalankan:
+
+```bash
 php artisan migrate
 npm run dev
 php artisan serve
@@ -42,7 +45,7 @@ php artisan serve
 [![Halaman Login](contoh-tampilan/halaman-login.png)](contoh-tampilan/halaman-login.png)
 [![Dashboard](contoh-tampilan/dashboard.png)](contoh-tampilan/dashboard.png)
 [![Halaman Pemasukan](contoh-tampilan/halaman-pemasukan.png)](contoh-tampilan/halaman-pemasukan.png)
-[![Halaman Pengeluaran](contoh-tampilan/halam-pengeluaran.png)](contoh-tampilan/halam-pengeluaran.png)
+[![Halaman Pengeluaran](contoh-tampilan/halaman-pengeluaran.png)](contoh-tampilan/halaman-pengeluaran.png)
 [![Input Pemasukan](contoh-tampilan/input-pemasukan.png)](contoh-tampilan/input-pemasukan.png)
 [![Input Pengeluaran](contoh-tampilan/input-pengeluaran.png)](contoh-tampilan/input-pengeluaran.png)
 
@@ -53,3 +56,4 @@ php artisan serve
 ## 📄 License
 
 Project ini menggunakan lisensi MIT.
+```
