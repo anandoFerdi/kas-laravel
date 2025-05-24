@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('home');
 // });
 
-// Route::resource('/', App\Http\Controllers\DashboardController::class)->middleware('auth');
+Route::resource('/', App\Http\Controllers\DashboardController::class)->middleware('auth');
 Route::resource('uangMasuk', App\Http\Controllers\MasukController::class)->middleware('auth');
 Route::resource('uangKeluar', App\Http\Controllers\KeluarController::class)->middleware('auth');
 // Route::resource('export_pdf', App\Http\Controllers\LaporanController::class)->middleware('auth');
@@ -28,4 +28,4 @@ Route::get('/export-pdf-uangKeluar', [App\Http\Controllers\KeluarController::cla
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
